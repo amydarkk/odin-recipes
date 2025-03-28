@@ -1,0 +1,35 @@
+/* styles.css */
+
+* {
+    margin: 0px;
+}
+
+.homepage-header {
+    background-color: #ebe08f;
+    padding-top: 100px;
+    padding-bottom: 40px;
+    border-bottom: 5px solid #bf663d;
+}
+
+.homepage-title {
+    text-align: center;
+    font-family: "Monaco", "Lucida Console", monospace;
+    color: #bf663d;
+}
+
+.homepage-recipes {
+    list-style-type: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a:link.homepage-recipes {
+    color: #bf663d;
+}
+
+a:visited.homepage-recipes {
+    color: #853917;
+}
+
+a:hover.homepage-recipes {
+    color: #ebe08f;
+}
