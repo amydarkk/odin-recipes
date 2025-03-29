@@ -9,17 +9,41 @@
     padding-top: 100px;
     padding-bottom: 40px;
     border-bottom: 5px solid #bf663d;
+    display: flex;
+    justify-content: center;
 }
 
 .homepage-title {
-    text-align: center;
+    /* text-align: center; */
     font-family: "Monaco", "Lucida Console", monospace;
     color: #bf663d;
+}
+
+div.recipe-block {
+    display: flex;
+    justify-content: center;
 }
 
 .homepage-recipes {
     list-style-type: none;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+ul.homepage-recipes {
+    margin-top: 50px;
+}
+
+li.block {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.single-recipe {
+    display: block;
+    width: 200px;
+    /* margin-left: 25px; */
+    margin-right: 25px;
+    text-align: center;
 }
 
 a:link.homepage-recipes {
